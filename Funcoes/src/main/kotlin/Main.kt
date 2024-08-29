@@ -1,7 +1,14 @@
-fun main(args: Array<String>) {
+fun main() {
     println("Hello World!")
+// Prints a message to request input
+    println("Digite qualque palavra: ")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+// Reads and stores the user input. For example: Happiness
+    val yourWord = readln()
+
+// Prints a message with the input
+    print("Palavra que voce escreveu: ")
+    print(yourWord)
+// You entered the word: Happiness
+
 }
