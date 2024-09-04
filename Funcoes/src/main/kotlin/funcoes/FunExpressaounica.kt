@@ -9,4 +9,4 @@ fun main(){
     val str = square(54)
 
     println(str)
-}gi
+}
